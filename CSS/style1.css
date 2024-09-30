@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(241, 71, 52);
+}
+
+
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: saddlebrown;
+}
+
+
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color:slategray;
+}

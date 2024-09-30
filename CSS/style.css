@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width:100;
+}
+
+h1{
+    color: rgb(162, 226, 43);
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 2000;
+    background-color: #f12626;
+}
+
+#Box{
+    height: 200px;
+    width: 200px;
+    background-color: #edfc1d;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+     
+}
+
+h3{
+    color: seagreen;
+    font-size: 70px;
+    font-family:monument ;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
