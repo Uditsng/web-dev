@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-kate</title>
+    <link rel="stylesheet" href="portfolio_kate.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="Logo">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">HIRE ME</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+            </ul>
+            <img src="images/moon.png" alt="moon" id="icon">
+        </nav>
+        <div class="info">
+            <h1>I'm <span>kate</span> Amelia</h1>
+            <p>This is my portfolio website. Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Odio id, laboriosam alias cumque perspiciatis tempore.</p>
+            <a href="">Download CV</a>
+        </div>
+        <div class="img-box">
+            <img src="images/pattern.png" alt="pattern" class="back-img">
+            <img src="images/girl.png" alt="girl" class="front-img">
+            
+        </div>
+        <div class="social-link">
+            <a href="https:/www.facebook.com"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="https:/linkedin.com"><i class="ri-linkedin-fill"></i></a>
+            <a href="https:/instagram.com"><i class="ri-instagram-fill"></i></a>
+        </div>
+    </div>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "images/sun.png";
+            }
+            else{
+                icon.src = "images/moon.png";
+            }
+        }
+    </script>
+</body>
+</html>
